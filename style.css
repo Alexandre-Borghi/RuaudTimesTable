@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./Roboto-Light.ttf");
+
+}
+
+html {
+    width: 97vw;
+    height: 97vh;
+    margin: auto;
+}
+
+body {
+    background-image: url("./penpenic.jpg");
+    background-blend-mode: luminosity;
+    background-color: rgba(200, 150, 150, 255);
+    background-position: -50px 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: lighter;
+
+    color: white;
+}
+
+#table {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 25%;
+
+    column-gap: 3.75%;
+
+    width: 100%;
+    max-width: 600px;
+
+    margin: auto;
+}
+
+#global {
+    grid-column: 5 / 6;
+}
+
+input[type="time"] {
+    width: 100%;
+    margin: 0 2% 5vh 2%;
+    height: 60%;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin: 0 2% 5vh 2%;
+    height: 60%;
+}
+
+div.center {
+    width: 100%;
+    text-align: center;
+}
+
+#reset {
+    width: 100%;
+    max-width: 200px;
+
+    font-size: 30px;
+    font-family: Roboto;
+
+    background-color: rgb(255, 0, 0);
+    color: white;
+
+    border-style: solid;
+    border-color: white;
+}
+
+#saturday {
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+
+    padding-left: 5px;
+
+    height: 60%;
+
+    color: black;
+
+    font-size: 15px;
+    font-family: Roboto;
+
+    text-align: left;
+
+    line-height: 100%;
+}
+
+#saturday > span > p {
+    display: inline-block;
+}
+
+#saturday > span {
+    background-color: white;
+
+    padding: 2% 4% 2% 4%;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        background-attachment: fixed;
+        background-position: -250px -150px;
+    }
+}
+
+#popup {
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+
+    display: none;
+}
+
+#popup > * {
+    width: 100%;
+    max-width: 400px;
+}
+
+#debug {
+    width: 1;
+    margin: auto;
+    
+    text-align: center;
+    
+    font-family: Roboto;
+
+    background-color: white;
+    color: black;
+}
