@@ -1,95 +1,80 @@
 {
-	"dir" : "ltr",
-	"lang" : "French",
-	"name" : "Tableau d'heures v2",
-	"scope" : "/PenpenicTimesTable/",
-	"display" : "standalone",
-	"start_url" : "/PenpenicTimesTable/",
-	"short_name" : "Tableau d'heures",
-	"theme_color" : "transparent",
-	"description" : "Une application qui permet de calculer ses heures de travail facilement.",
-	"orientation" : "any",
-	"background_color" : "#C89696",
-	"related_applications" : [],
-	"prefer_related_applications" : false,
-	"icons" : [
+	"dir": "ltr",
+	"lang": "French",
+	"name": "Tableau d'heures v2",
+	"scope": "/RuaudTimesTable/",
+	"display": "standalone",
+	"start_url": "/RuaudTimesTable/",
+	"short_name": "Tableau d'heures",
+	"theme_color": "transparent",
+	"description": "Une application qui permet de calculer ses heures de travail facilement.",
+	"orientation": "any",
+	"background_color": "#0C5091",
+	"related_applications": [],
+	"prefer_related_applications": false,
+	"icons": [
 		{
-			"src": "./icons/penpenic44.png",
-			"sizes": "44x44"
-		},
-		{
-			"src": "./icons/penpenic48.png",
-			"sizes": "48x48"
-		},
-		{
-			"src": "./icons/penpenic1240x600.png",
-			"sizes": "1240x600"
-		},
-		{
-			"src": "./icons/penpenic300.png",
-			"sizes": "300x300"
-		},
-		{
-			"src": "./icons/penpenic150.png",
-			"sizes": "150x150"
-		},
-		{
-			"src": "./icons/penpenic88.png",
-			"sizes": "88x88"
-		},
-		{
-			"src": "./icons/penpenic24.png",
-			"sizes": "24x24"
-		},
-		{
-			"src": "./icons/penpenic50.png",
-			"sizes": "50x50"
-		},
-		{
-			"src": "./icons/penpenic620x300.png",
-			"sizes": "620x300"
-		},
-		{
-			"src": "./icons/penpenic192.png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "./icons/penpenic144.png",
-			"sizes": "144x144"
-		},
-		{
-			"src": "./icons/penpenic96.png",
-			"sizes": "96x96"
-		},
-		{
-			"src": "./icons/penpenic72.png",
-			"sizes": "72x72"
-		},
-		{
-			"src": "./icons/penpenic36.png",
+			"src": "./icons/ruaud36.png",
 			"sizes": "36x36"
 		},
 		{
-			"src": "./icons/penpenic1024.png",
-			"sizes": "1024x1024"
+			"src": "./icons/ruaud48.png",
+			"sizes": "48x48"
 		},
 		{
-			"src": "./icons/penpenic180.png",
-			"sizes": "180x180"
+			"src": "./icons/ruaud57.png",
+			"sizes": "57x57"
 		},
 		{
-			"src": "./icons/penpenic152.png",
-			"sizes": "152x152"
+			"src": "./icons/ruaud60.png",
+			"sizes": "60x60"
 		},
 		{
-			"src": "./icons/penpenic120.png",
+			"src": "./icons/ruaud70.png",
+			"sizes": "70x70"
+		},
+		{
+			"src": "./icons/ruaud72.png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "./icons/ruaud76.png",
+			"sizes": "76x76"
+		},
+		{
+			"src": "./icons/ruaud96.png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "./icons/ruaud114.png",
+			"sizes": "114x114"
+		},
+		{
+			"src": "./icons/ruaud120.png",
 			"sizes": "120x120"
 		},
 		{
-			"src": "./icons/penpenic76.png",
-			"sizes": "76x76"
-		}],
-	"url" : "https://alexandre-borghi.github.io/PenpenicTimesTable/",
-	"screenshots" : [],
-	"generated" : "true"
+			"src": "./icons/ruaud144.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "./icons/ruaud152.png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "./icons/ruaud180.png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "./icons/ruaud192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./icons/ruaud310.png",
+			"sizes": "310x310"
+		},
+	],
+	"url": "https://alexandre-borghi.github.io/RuaudTimesTable/",
+	"screenshots": [],
+	"generated": "true"
 }

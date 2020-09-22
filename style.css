@@ -11,9 +11,9 @@ html {
 }
 
 body {
-    background-image: url("./penpenic.jpg");
+    background-image: url("./ruaud.jpg");
     background-blend-mode: luminosity;
-    background-color: rgba(200, 150, 150, 255);
+    background-color: #0C5091;
     background-position: -50px 0;
 }
 

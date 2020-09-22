@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 
-    <link rel='manifest' href='./manifest.json'>
+	<link rel='manifest' href='./manifest.json'>
 
-    <!-- Apple icons -->
-    <link rel="apple-touch-icon" href="./icons/penpenic1024.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/penpenic152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/penpenic180.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="./icons/penpenic167.png">
+	<!-- Apple icons -->
+	<link rel="apple-touch-icon" sizes="152x152" href="./icons/ruaud152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./icons/ruaud180.png">
+	<link rel="apple-touch-icon" sizes="310x310" href="./icons/ruaud167.png">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tableau d'heures v2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tableau d'heures v2</title>
 
-    <link rel="stylesheet" href="./style.css">
-    
-    <script src="./main.js"></script>
-    <script>
-        function displaySat() {
-            var satcb = document.getElementById("displaySat");
-            var satline = document.getElementsByClassName("saturdayline");
-            
-            for (let e of satline) {
-                e.style.display = satcb.checked ? "block" : "none";
-                localStorage.satcb = satcb.checked;
-            }
+	<link rel="stylesheet" href="./style.css">
 
-            document.getElementById("saturday").style["grid-row"] = satcb.checked ? "7 / 8" : "6 / 7";
-        }
-    </script>
+	<script src="./main.js"></script>
+	<script>
+		function displaySat() {
+			var satcb = document.getElementById("displaySat");
+			var satline = document.getElementsByClassName("saturdayline");
+
+			for (let e of satline) {
+				e.style.display = satcb.checked ? "block" : "none";
+				localStorage.satcb = satcb.checked;
+			}
+
+			document.getElementById("saturday").style["grid-row"] = satcb.checked ? "7 / 8" : "6 / 7";
+		}
+	</script>
 </head>
+
 <body>
-    <h1>Tableau des heures</h1>
+	<h1>Tableau des heures</h1>
 
-    <div id="table">
-        <div id="saturday">
-            <span>
-                <input type="checkbox" name="displaySat" id="displaySat" onclick="displaySat();"><p>Samedi</p>
-            </span>
-        </div>
-    </div>
+	<div id="table">
+		<div id="saturday">
+			<span>
+				<input type="checkbox" name="displaySat" id="displaySat" onclick="displaySat();">
+				<p>Samedi</p>
+			</span>
+		</div>
+	</div>
 
-    <div class="center"><button onclick="reset()" id="reset">Reset</button></div>
+	<div class="center"><button onclick="reset()" id="reset">Reset</button></div>
 
-    <br><br>
-    <p id="debug">Version 1.2</p>
+	<br><br>
+	<p id="debug">Version 1.2</p>
 
-    <div id="popup"><img src="./addpopup.png"></div>
+	<div id="popup"><img src="./addpopup.png"></div>
 </body>
+
 </html>
