@@ -54,10 +54,6 @@
 			"sizes": "120x120"
 		},
 		{
-			"src": "./icons/ruaud144.png",
-			"sizes": "144x144"
-		},
-		{
 			"src": "./icons/ruaud152.png",
 			"sizes": "152x152"
 		},
